@@ -42,7 +42,11 @@ def Bellman_Ford(G, s):
 def printMatrix(M):
     for row in M:
         for n in row:
-            print(str(n).ljust(3), end=' ')
+            if n == inf:
+                print('∞'.ljust(3), end=' ')
+
+            else:
+                print(str(n).ljust(3), end=' ')
 
         print()
 
