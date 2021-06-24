@@ -1,6 +1,6 @@
 # Python graph library
 
-A custom graph library, made to aid studying Algorithm and Data Structures, complete with some common algoritms implementations.
+A custom graph library, made to aid studying Algorithm and Data Structures, complete with some common algorithms implementations.
 
 It intentionally doesn't use OOP principles, to make the code similar to the pseudocode used in the exams.
 
